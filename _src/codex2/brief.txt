@@ -1,0 +1,15 @@
+Generate ONE photorealistic image with your built-in image generation tool, using the attached image as the design reference for the car and the studio. Work only in this folder. Save it as gen/front_start.png and write gen/note.json (UTF-8) with the prompt you used and the output size.
+
+Encoding: read and write text files as UTF-8 only (use Python). No git commands. No web browsing. Do not open any browser.
+
+Purpose: the first frame of a short, dark, refined website video (car care shop "김프로"). In the video the camera will push in to the hood, the scratches on the hood will become obvious, and a polishing pad will sweep across and leave clean mirror-black paint. So the scratches must already be visible in this frame.
+
+## Image
+- Landscape 16:9, 1672x941.
+- The SAME anonymous gloss black four-door fastback sports sedan as in the attached image (same slim LED headlights, same body shape, same dark wheels), in the SAME dark refined studio: seamless near-black background falling off to pure black, three long parallel white linear softbox light strips overhead, polished dark charcoal floor with soft reflections, the dark circular platform under the car.
+- View: straight head-on FRONT view, car exactly centred and symmetrical, the whole car visible with generous empty margin on every side (car about 52% of the frame width). Camera slightly above the car (about 1.7 m high) looking a little down, so the long hood surface is clearly visible and reflects the three overhead light strips as long, straight white lines running along the hood.
+- Paint condition on the hood: clearly visible fine swirl marks, circular spider-web scratches and a few hairline scratches in the black paint, showing most around and along the reflected light lines (exactly how swirl marks look under inspection lights). Believable and real, not cartoonish. The rest of the car can be normal gloss.
+- Mood: dark, calm, premium, cinematic; blacks keep detail, highlights never blown, no haze, no HDR halos.
+- No people, no hands. No licence plate (or a plain blank plate). No badges, emblems, logos, text, letters, numbers or watermarks anywhere, including reflections.
+
+When done, print one line: "front_start ready".

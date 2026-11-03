@@ -1,0 +1,21 @@
+{
+ "count": 144,
+ "pad": 3,
+ "ext": "webp",
+ "source": "polish_v3.mp4",
+ "sourceFrames": 286,
+ "size": [
+  1918,
+  1080
+ ],
+ "desktop": {
+  "dir": "assets/polish/desktop",
+  "prefix": "f_",
+  "width": 1600
+ },
+ "mobile": {
+  "dir": "assets/polish/mobile",
+  "prefix": "f_",
+  "width": 900
+ }
+}

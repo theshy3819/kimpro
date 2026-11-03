@@ -1,0 +1,1 @@
+zoom=2.4 center=(959.0,507.59999999999997) box=(559, 283, 1359, 733) source=frame48 of front_polish_hailuo23.mp4

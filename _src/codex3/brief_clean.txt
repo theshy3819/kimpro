@@ -1,0 +1,16 @@
+Edit the attached image with your built-in image generation / editing tool, using the attached image as the input. Work only in this folder. Save the result as gen/clean_wide.png (landscape, 1918x1080 or the closest 16:9 size you can produce) and write gen/note_clean.json (UTF-8) with the prompt you used and the output size.
+
+Encoding: read and write text files as UTF-8 only (use Python). No git commands. No web browsing. Do not open any browser.
+
+The attached image is one frame of a website video: a gloss black sedan, front view, in a dark studio. The hood paint has fine swirl marks and hairline scratches. In the video the car has just been polished, and this edited image will be the final "after" shot the camera pulls back to.
+
+## Change only this
+- Remove ALL swirl marks, spider-web scratches and hairline scratches from the hood and the rest of the paint. The paint must look freshly polished: deep, clean, mirror-like black, with the three white light-strip reflections on the hood crisp, sharp-edged and smooth (no frosted or hazy edges).
+
+## Keep exactly the same
+- Composition, framing, camera angle and position of the car in the frame, so it lines up with the original frame.
+- The car's shape, headlights, grille, mirrors, windshield, wheels, the platform, the floor, the dark background and the overhead light strip.
+- The position and width of each light-line reflection on the hood and windshield.
+- No people, no hands, no text, no logos, no plate.
+
+When done, print one line: "clean_wide ready".

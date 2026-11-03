@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: precise-object-edit. Input image: shot2_start.png is the edit target. Retouch this exact website video frame into its final freshly polished after shot. Change ONLY the paint surface: remove ALL swirl marks, spider-web scratches and hairline scratches from the hood and every other painted area. Make the gloss black paint deep, clean, flawlessly mirror-like black. The three white strip-light reflections across the hood must be crisp, smooth and sharp-edged, with no frosted texture, scratches, haze or diffuse edges. Preserve each reflection's exact position, width, path and curvature on the hood and windshield. Preserve the original image precisely: identical composition, framing, camera angle, car position and scale, car silhouette and geometry, headlights, grille, mirrors, windshield, wheels, platform, floor, black studio background, and overhead horizontal light strip. Do not restyle or redesign anything. Do not crop or move anything. No people, hands, text, logos, or plate. Output landscape at 1918x1080 or the closest possible 16:9 resolution.",
+  "output_size": {
+    "width": 1672,
+    "height": 941
+  },
+  "tool": "built-in image generation/editing"
+}

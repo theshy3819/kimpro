@@ -1,0 +1,13 @@
+_research/
+_tools/pylib/
+_src/**/*.png
+_src/**/*.mp4
+*.log
+_src/real/kimpro_polish.jpg
+_src/real/_*.jpg
+_src/real/
+_src/**/*.jpg
+_src/**/peek*/
+_src/newtake/split/
+_tools/__pycache__/
+__pycache__/

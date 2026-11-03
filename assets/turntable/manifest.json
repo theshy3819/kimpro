@@ -1,0 +1,21 @@
+{
+ "count": 120,
+ "pad": 3,
+ "ext": "webp",
+ "source": "turntable_hailuo23.mp4",
+ "sourceFrames": 141,
+ "size": [
+  1918,
+  1080
+ ],
+ "desktop": {
+  "dir": "assets/turntable/desktop",
+  "prefix": "f_",
+  "width": 1600
+ },
+ "mobile": {
+  "dir": "assets/turntable/mobile",
+  "prefix": "f_",
+  "width": 900
+ }
+}

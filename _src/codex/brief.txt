@@ -1,0 +1,20 @@
+Generate 6 photorealistic images with your built-in image generation tool for the website of a real Korean car care shop, "김프로" (Kimpro, Gwangju; polishing, ceramic glass coating, partial painting, wheel repair and powder coating, diamond-cut wheel repair, windshield chip repair, tint, PPF, interior cleaning). The site is dark, refined and calm. Work only in this folder. Save each image as PNG under gen/<key>.png, then write images.json (UTF-8) listing key, file, width, height and the exact prompt you used.
+
+Encoding: read and write text files as UTF-8 only (use Python). No git commands. No web browsing. Do not open any browser.
+
+## Rules for every image
+- One standalone real photograph. Calm, dark, premium mood; true colours; crisp material detail; controlled studio light; blacks keep detail, highlights never blown. No HDR halos, no fantasy glow, no motion blur, straight verticals.
+- Cars are generic, anonymous modern designs of no recognisable brand. No badges, emblems, logos or branded grilles. No licence plate, or a plain blank plate.
+- Absolutely no text, letters, numbers, signage, labels, logos or watermarks anywhere, including reflections and screens. Tools and machines are plain and unbranded.
+- People: only gloved hands or a back view, never a face.
+
+## Images
+1. key `car_base`, landscape 16:9 (at least 1536x864). THE MOST IMPORTANT IMAGE. It will be the first frame of a slow turntable rotation video, so composition must be clean and centred.
+   A single anonymous modern gloss black four-door sports sedan (sleek fastback roofline, slim LED headlights, large dark wheels), three-quarter front view from the driver's left side, car exactly centred, the whole car visible with generous empty margin on every side (car spans about 58% of the frame width). It stands on a large matte charcoal circular turntable platform in a seamless near-black studio (background falls off to pure black at the edges). Three long parallel white linear softbox lights overhead create clean straight reflection lines along the hood, roof and side; a faint cool rim light outlines the silhouette; soft reflection on the dark floor. Camera at headlight height, 50mm lens, level horizon. Nothing else in the frame.
+2. key `wheel_cut`, landscape 3:2. Close-up of a diamond-cut two-tone alloy wheel (machined bright face, black pockets) clamped in a CNC wheel lathe in a dark workshop; the cutting tool is touching the spoke face and fine bright metal curls fall away. Cool overhead light, shallow depth of field.
+3. key `wheel_powder`, landscape 3:2. A freshly powder-coated satin gunmetal alloy wheel hanging on a rack in front of an open industrial curing oven with a warm orange glow inside; dark workshop, a gloved hand steadies the wheel.
+4. key `glass_chip`, landscape 3:2. Close-up of a windshield stone-chip repair: a small resin injector bridge tool attached with a suction cup to the outside of a car windshield, the small star-shaped chip under the injector, a gloved hand adjusting it; dark garage, cool light, reflections on the glass.
+5. key `paint_spot`, landscape 3:2. Partial repainting in a clean paint booth: the rear bumper corner of a dark grey car is masked off with paper and tape, a gloved hand holds a spray gun releasing a fine mist onto the bare primer patch; bright even booth light from above, everything else dark grey.
+6. key `shop_night`, landscape 16:9. Exterior of a modest, tidy Korean car care workshop at night on a quiet city street: ground floor of a plain dark concrete building, two large roll-up doors open, warm bright light inside showing a black sedan on an epoxy floor and neat tool carts, wet asphalt reflecting the light. No sign boards, no text, no people.
+
+When done, print one line: "6 images ready in gen/".
