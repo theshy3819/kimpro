@@ -1,0 +1,15 @@
+Generate ONE photorealistic image with your built-in image generation tool. Work only in this folder. Save it as gen/tint.png and write gen/note.json (UTF-8) with the prompt you used and the output size.
+
+Encoding: read and write text files as UTF-8 only (use Python). No git commands. No web browsing. Do not open any browser.
+
+Purpose: the main photo of the "window tint (썬팅)" page on the website of a Korean car care shop. The site is dark, calm and refined.
+
+## Image
+- Landscape 3:2, 1536x1024.
+- Close-up of window tint being applied to the rear side window of an anonymous gloss black sedan, seen from outside the car. A black-gloved hand presses a plain dark squeegee across a sheet of dark tint film on the glass, with a thin film of water and a few small water droplets; the edge of the film is neatly trimmed along the window frame.
+- Setting: a dark, clean detailing studio — near-black background, long white linear LED light strips overhead reflecting as clean lines on the glossy black paint and glass, polished dark floor out of focus.
+- Mood: dark, calm, premium; true colours; crisp material detail; blacks keep detail; no HDR halos, no motion blur.
+- Only gloved hands and part of a forearm in a black sleeve; no face, no person's head.
+- No badges, emblems, logos, licence plate, text, letters, numbers or watermarks anywhere, including on the film, the tools and reflections.
+
+When done, print one line: "tint ready".

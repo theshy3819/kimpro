@@ -1,0 +1,7 @@
+{
+  "prompt": "Generate exactly ONE photorealistic photograph, landscape 3:2, 1536x1024 pixels.\nUse case: ads-marketing.\nAsset type: main photo for the window tint service page of a Korean car care shop with a dark, calm, refined website.\nSubject and framing: close-up of window tint being applied to the rear side window of an anonymous gloss black sedan, viewed from outside the car. A black-gloved hand presses a plain dark squeegee across a sheet of dark tint film on the glass. Show a thin film of water and a few small water droplets, with the film edge neatly trimmed along the window frame. Only gloved hands and part of a forearm in a black sleeve are visible; no face or person's head.\nSetting: dark, clean detailing studio with a near-black background. Long white linear LED light strips overhead reflect as clean lines on the glossy black paint and glass. Polished dark floor out of focus.\nStyle and lighting: premium professional automotive service photography, dark and calm, true colours, crisp realistic material detail, detailed blacks, controlled highlights, no HDR halos and no motion blur.\nStrict exclusions: no badges, emblems, logos, licence plate, text, letters, numbers or watermarks anywhere, including on the film, tools and reflections. No visible head, face or additional person. Opaque image background.",
+  "output_size": {
+    "width": 1536,
+    "height": 1024
+  }
+}
