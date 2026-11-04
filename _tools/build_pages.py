@@ -472,6 +472,39 @@ def reserve_page():
     return page("reserve.html", "예약하기 | 김프로 광택 코팅", f"원하는 시공과 차량을 적어 문자로 예약 요청을 보내 주세요. {C.PHONE}", body, "contact", b)
 
 
+# ---------------------------------------------------------------- 옮긴 주소 → 새 쪽으로 넘기기
+# 예전에 공유된 주소가 끊기지 않게 해요. {옛 경로: 같은 폴더 기준 새 파일}
+REDIRECTS = {
+    "service/film.html": ("tint.html", "썬팅"),  # 2026-11-04 썬팅 · PPF · 루프스킨 → 썬팅
+}
+
+
+def redirect_pages():
+    made = []
+    for old, (new, title) in REDIRECTS.items():
+        out = f"""<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{esc(title)} | 김프로 광택 코팅</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="{new}">
+  <meta http-equiv="refresh" content="0; url={new}">
+  <script>location.replace("{new}" + location.search + location.hash);</script>
+  <style>body{{margin:0;min-height:100vh;display:grid;place-items:center;background:#0a0a0a;color:#f4f4f4;font-family:sans-serif}}a{{color:#f4f4f4}}</style>
+</head>
+<body>
+  <p>{esc(title)} 페이지로 옮겼어요. <a href="{new}">{esc(title)} 페이지로 가기</a></p>
+</body>
+</html>
+"""
+        (ROOT / old).parent.mkdir(parents=True, exist_ok=True)
+        (ROOT / old).write_text(out, encoding="utf-8")
+        made.append(old)
+    return made
+
+
 # ---------------------------------------------------------------- 홈 머리 · 꼬리말 맞추기
 def patch_home():
     p = ROOT / "index.html"
@@ -496,4 +529,5 @@ def patch_home():
 if __name__ == "__main__":
     made = [service_page(s, i) for i, s in enumerate(C.SERVICES)]
     made += [services_index(), about_page(), equipment_page(), visit_page(), reserve_page(), patch_home()]
+    made += redirect_pages()
     print(len(made), "pages:", ", ".join(made))

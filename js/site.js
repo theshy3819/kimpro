@@ -71,7 +71,9 @@
   const isPhone = window.matchMedia("(pointer: coarse)").matches;
 
   // 상세 쪽에서 "이 시공 예약하기"로 오면 그 시공을 미리 골라 둬요
-  const pre = new URLSearchParams(location.search).get("service");
+  const OLD = { film: "tint" }; // 옮긴 시공 이름(예전 링크)
+  let pre = new URLSearchParams(location.search).get("service");
+  pre = OLD[pre] || pre;
   if (pre) {
     const box = $(`input[name="service"][value="${CSS.escape(pre)}"]`, form);
     if (box) box.checked = true;
